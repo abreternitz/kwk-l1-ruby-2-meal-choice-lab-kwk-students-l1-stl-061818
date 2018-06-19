@@ -13,7 +13,7 @@ def lunch(food="grilled cheese")
 end
 
 def dinner(food="Salmon")
-  puts"Dinner is the best time for #{food}"
+  "Dinner is the best time for #{food}"
 end
 
 # Call the methods with puts and your own arguments here. Like this:
@@ -27,5 +27,5 @@ puts snacks("Swedish fish")
 puts snacks
 puts breakfast
 puts lunch
- dinner
+puts dinner
 ## In our snacks method, the default choic
